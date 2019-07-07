@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
+  data = {
+    abilities: ['C#', 'Css', 'Html', '.Net Mvc', 'Javascript', 'Jquery', 'React', 'Angular'],
+    sociallinks: ['www.facebook.com', 'www.twitter.com', 'www.github.com', 'www.linkedin.com']
+  }
+
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
