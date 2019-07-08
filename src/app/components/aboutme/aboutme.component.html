@@ -1,6 +1,101 @@
-<div>
-<div class="col-md-4">
-asdads
-</div>
-<div class="col-md-8">x</div>
-</div>
+<div class="col-md-12 d-flex aboutme">
+    <div class="col-md-4 contact">
+
+        <img class="img" [src]="user.imageUrl">
+        <h1>Lorem Ipsum</h1>
+        <hr><br />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias natus omnis minus impedit qui aperiam,
+            aliquid consequatur ea eveniet dicta ab suscipit modi quae tempora quas quos repellendus culpa.
+        </p>
+        <hr><br />
+        <h4>Gmail</h4>
+        <p>{{user.nameSurname}}</p>
+        <h4>Email</h4>
+        <p>{{user.githubUrl}}</p>
+        <h4>Github</h4>
+        <p>loremipsum@lorem.com</p>
+
+    </div>
+    <div class="col-md-8 detail" style="background-color: rebeccapurple">
+
+        <h1>Education</h1>
+        <div class="education" *ngFor="let item of ExperianceList">
+            <div class="col-md-4">
+                {{item.company}}
+            </div>
+            <div class="col-md-8">
+                <h3 style="margin-bottom: 25px;"></h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+        </div>
+        <!-- <div class="education">
+            <div class="col-md-4">
+                2015-2018
+            </div>
+            <div class="col-md-8">
+                <h3 style="margin-bottom: 25px;">LoremIpsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+        </div>
+        <div class="education">
+            <div class="col-md-4">
+                2015-2018
+            </div>
+            <div class="col-md-8">
+                <h3 style="margin-bottom: 25px;">LoremIpsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+        </div> -->
+        <hr>
+        <h1>Experiences </h1>
+        <div class="experience">
+            <div class="col-md-4">6 Months</div>
+            <div class="col-md-8">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, atque ab placeat rerum pariatur illum
+                    eum ad, vitae tenetur ipsam autem eius suscipit doloremque. Consectetur cum suscipit vero molestiae
+                    in?</p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="col-md-4">6 Months</div>
+            <div class="col-md-8">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, atque ab placeat rerum pariatur illum
+                    eum ad, vitae tenetur ipsam autem eius suscipit doloremque. Consectetur cum suscipit vero molestiae
+                    in?</p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="col-md-4">6 Months</div>
+            <div class="col-md-8">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, atque ab placeat rerum pariatur illum
+                    eum ad, vitae tenetur ipsam autem eius suscipit doloremque. Consectetur cum suscipit vero molestiae
+                    in?</p>
+            </div>
+        </div>
+        <hr>
+        <div class="interest">
+            <h1>İnterest</h1>
+            <div class="interest-content">
+                <h4>LoremIpsum:</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, error possimus id sapiente ea,
+                    voluptates, commodi delectus itaque quae deserunt veritatis ad. Autem deserunt iure velit assumenda
+                    laboriosam tenetur odit?</p>
+            </div>
+            <div class="interest-content">
+                <h4>LoremIpsum:</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, error possimus id sapiente ea,
+                    voluptates, commodi delectus itaque quae deserunt veritatis ad. Autem deserunt iure velit assumenda
+                    laboriosam tenetur odit?</p>
+            </div>
+            <div class="interest-content">
+                <h4>LoremIpsum:</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, error possimus id sapiente ea,
+                    voluptates, commodi delectus itaque quae deserunt veritatis ad. Autem deserunt iure velit assumenda
+                    laboriosam tenetur odit?</p>
+            </div>
+        </div>
+
+    </div>

@@ -8,3 +8,84 @@
     #0f2027
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.aboutme {
+  display: flex;
+  padding: 15px;
+  .contact {
+    text-align: center;
+    .img {
+      border-radius: 150px;
+      height: 350px;
+      margin-top: 50px;
+    }
+    hr {
+      width: 50%;
+      float: left;
+      border-radius: 5px;
+      border: 3px solid #0575e6;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    h4 {
+      margin-top: 20px;
+    }
+  }
+
+  .detail {
+    background: #000;
+    background: -webkit-linear-gradient(90deg, #434343, #000);
+    background: -webkit-linear-gradient(left, #434343, #000);
+    background: linear-gradient(90deg, #434343, #000);
+    color: #fff;
+
+    h1 {
+      padding: 20px;
+    }
+    .education {
+      margin-top: 50px;
+      margin-left: 15px;
+      display: flex;
+    }
+    .experience{
+      margin-top: 50px;
+      margin-left: 15px;
+      display: flex;
+    }
+    .interest{
+      margin-top: 50px;
+     
+      margin-left: 15px;
+    
+      h4{
+        margin-top: 20px;
+        margin-left: 23px;
+      }
+      p{
+        margin-left: 23px;
+      }
+    }
+    hr {
+      margin-top: 50px;
+      border-radius: 5px;
+      border: 3px solid #0575e6;
+
+    }
+  }
+}
+
+.mat-figure {
+  background-color: red($color: #000000);
+.col-md-8 {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+}

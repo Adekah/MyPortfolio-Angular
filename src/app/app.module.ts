@@ -11,6 +11,7 @@ import { LandingComponent } from './components/landing/landing.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import{}
 
 @NgModule({
   declarations: [
